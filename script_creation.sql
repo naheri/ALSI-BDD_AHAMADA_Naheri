@@ -51,7 +51,7 @@ CREATE TABLE Pilote (
 
 CREATE TABLE Vol (
     id_vol INT AUTO_INCREMENT PRIMARY KEY,
-    numero_vol VARCHAR(10) NOT NULL UNIQUE,
+    numero_vol VARCHAR(10) NOT NULL,
     date_heure_depart DATETIME NOT NULL,
     date_heure_arrivee DATETIME NOT NULL,
     id_avion INT NOT NULL,

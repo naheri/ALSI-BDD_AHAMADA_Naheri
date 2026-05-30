@@ -85,4 +85,4 @@ env_aero\Scripts\activate
 pip install PyQt6 mysql-connector-python
 
 # 4. Lancement de l'interface
-python src/gui_projetBDML_AHAMADA_Naheri.py
+python gui_projetBDML_AHAMADA_Naheri.py

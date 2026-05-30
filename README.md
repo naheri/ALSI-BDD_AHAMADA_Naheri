@@ -45,7 +45,7 @@ Afin de modéliser ce système de manière cohérente, les règles métiers suiv
 | **Pilote** | `salaire` | DECIMAL(10,2) | CHECK(salaire > 0) | Salaire mensuel (en €) |
 | **Pilote** | `date_embauche` | DATE | NOT NULL | Date de début de contrat |
 | **Vol** | `id_vol` | INT | PK, AUTO_INCREMENT | Identifiant unique |
-| **Vol** | `numero_vol` | VARCHAR(10) | NOT NULL, UNIQUE | Numéro de vol (ex: AF123) |
+| **Vol** | `numero_vol` | VARCHAR(10) | NOT NULL | Numéro de vol (ex: AF123) |
 | **Vol** | `date_heure_depart` | DATETIME | NOT NULL | Heure de décollage |
 | **Vol** | `date_heure_arrivee`| DATETIME | NOT NULL | Heure d'atterrissage |
 | **Affectation**| `role` | VARCHAR(50) | NOT NULL | Rôle du pilote sur ce vol |
